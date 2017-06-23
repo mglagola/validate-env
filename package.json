@@ -1,6 +1,6 @@
 {
   "name": "validate-env",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Validate your env variables, avoiding future headaches or points of failure!",
   "main": "index.js",
   "engineStrict": false,

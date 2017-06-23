@@ -39,7 +39,7 @@ function validate (validationMap, values, { throwsOnFailure = true } = {}) {
             : validationFuncOrValue === value;
         
         if (!isValid) {
-            if (throwsOnFailure) throw new Error(`"${key}" is invalid or missing!`);
+            if (throwsOnFailure) throw new Error(`"${key}" env variable is invalid or missing!`);
             return false;
         }
     }
