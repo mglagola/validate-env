@@ -1,10 +1,17 @@
 {
   "name": "validate-env",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Validate your env variables, avoiding future headaches or points of failure!",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engineStrict": false,
+  "engines": {
+    "node": ">= 7.0.0"
+  },
+  "author": "Mark Glagola",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:mglagola/validate-env.git"
   },
   "keywords": [
     "easi",
@@ -13,8 +20,10 @@
     "validate",
     "required"
   ],
-  "author": "",
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mglagola/validate-env/issues"
+  },
+  "homepage": "https://github.com/mglagola/validate-env",
   "devDependencies": {
     "eslint": "^4.0.0",
     "eslint-plugin-node": "^5.0.0",
