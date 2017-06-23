@@ -1,0 +1,24 @@
+{
+  "name": "validate-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "easi",
+    "env",
+    "validation",
+    "validate",
+    "required"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-to-editorconfig": "^1.2.0"
+  }
+}
